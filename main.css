@@ -1,0 +1,127 @@
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+.img-container{
+    display: flex; 
+    
+
+}
+
+nav >img{
+    width:120px;
+   
+}
+
+.hero-container{
+    
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(217, 215, 215);
+    padding: 0 0 70px 20px;
+    margin: 0 540px 0 540px;
+}
+.fieldset-input{
+    border:none;
+    align-items: center;
+    
+}
+
+form > h1{
+    padding: 0 0 0 15px;
+}
+
+.input-name{
+ padding: 5px 75px 5px 75px;
+ border-radius: 2px;
+ border: 1px solid;
+}
+
+.input-password{
+    padding: 5px 75px 5px 75px;
+    border-radius: 2px;
+    border: 1px solid;
+}
+.submit-btn{
+    background-color: rgba(245, 193, 50, 0.914);
+    border: 1px solid;
+    border-radius: 2px;
+    border-color:rgb(41, 158, 241)
+    box-shadow: 2px;
+    padding: 5px 130px 5px 130px;
+    margin:10px 0 0 14px;
+
+}
+
+.checkbox{
+    margin: 20px 0 0 10px;
+
+}
+.checkbox >p{
+    width: 340px;
+    font-size: 13px;
+    padding: 0 0 0 15px;
+    
+}
+
+#p-link{
+    text-decoration: none;
+    color:rgb(41, 158, 241)
+}
+
+.lower-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.lower-box >span{
+    background: rgb(205, 202, 202); padding: 0 10px; 
+}
+
+
+.behind-line > p{
+    display: flex;
+    justify-content: center;
+    color: rgb(131, 132, 133);
+
+}
+
+.create-btn{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 242, 244);
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: rgb(156, 155, 155);
+    box-shadow: 2px;
+    padding: 5px 0 5px 0;
+    margin: 0 540px 0 540px;   
+}
+
+.foot-links{
+    margin: 10px 0 0 0;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.foot-link{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(41, 158, 241)
+
+}
+
+.p-foot{
+    display: flex;
+    justify-content: center;
+    color:rgb(85, 85, 86)
+}
